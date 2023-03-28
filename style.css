@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  input{font:inherit;}
+  section {
+      display: flex;
+      min-height: 100vh;
+      align-items: center;
+  }
+  
+  form {
+      display: block;
+      width: 450px;
+      margin: auto;
+      padding: 30px;
+      padding-left: 50px;
+      border-radius: 6px;
+      /* border: 1px solid #ddd;
+      box-shadow: 1px 2px 4px rgba(0,0,0,0.1);
+      min-height: 400px;    */
+  
+  }
+  
+  
+  img {
+      display: flex;
+      justify-content: right;
+      width: 90%;
+      height: 600px;
+      padding: 15px;
+      padding-top: 2px;
+      padding-left: 100px;
+      padding-right:  60px;
+      border-radius: 20px 20px 0 0;
+      /* box-shadow: 1px 2px 4px rgba(0,0,0,0.1); */ 
+      /* min-height: 400px;     */
+  }
+  
+  
+  
+  h1{
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+  }
+  
+  h4{
+    color: gray;
+    display: flex;
+    justify-content: center;
+  }
+  
+  form .form-control {
+      margin-top: 30px;
+  }
+  
+  form .form-control label {
+      display: block;
+      color: black;
+  }
+  
+  form .form-control input {
+    width: 100%;
+    height: 35px;
+  }
+  
+  .check{
+    padding: 5px;
+  }
+  
+  span{
+    color: rgb(0, 0, 0);
+  }
+  
+  a{
+    color: black;
+    padding-left: 20px;
+  }
+  
+  
+  .iniciar input[type="submit"]{
+    background: black;
+      color: white;
+      width: 100%;
+      border: 1px solid;
+      padding: 10px 13px;
+      border-radius: 4px;
+      margin-top: 25px;
+      cursor: pointer;
+  }
+  
+  .iniciar-google input[type="submit"]{
+      background: white url(./IMG/icons8-logo-de-google.svg) no-repeat padding-box 75px;
+      color: black;
+      width: 100%;
+      border: 1px solid;
+      padding: 10px 13px;
+      border-radius: 4px;
+      margin-top: 25px;
+      cursor: pointer;
+  }
+  
+  
